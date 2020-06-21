@@ -25,7 +25,7 @@ public class Page {
 	}
 	
 	public void caculateLast(int total) {
-	    // 假设总数是50，是能够被5整除的，那么最后一页的开始就是45
+	    // 假设总数是50，是能够被5整除的，那么最后一页的开始就是45=====
 	    if (0 == total % count)
 	        last = total - count;
 	    // 假设总数是51，不能够被5整除的，那么最后一页的开始就是50
